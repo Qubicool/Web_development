@@ -2,12 +2,19 @@
     margin: 0;
 }
 body {
-    background: url(img/backgroundpages.jpg) no-repeat;
+    background: url(img/wave_background.svg) no-repeat;
     color: white;
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-position: center;
+    font-family: 'Montserrat', sans-serif;
 }
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -21,6 +28,7 @@ header {
     box-shadow: 0 10px 10px
     #000;
     height: 45px;
+    font-family: 'Montserrat', sans-serif;
 }
 .logo, .top_menu {
     display: inline-block;
@@ -57,4 +65,14 @@ header {
     font-size: 30px;
     vertical-align: middle;
     text-decoration: none;
+}
+
+p, h1, h2, ol, ul, li {
+    text-align: center;
+}
+
+.center {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
 }

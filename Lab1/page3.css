@@ -2,11 +2,12 @@
     margin: 0;
 }
 body {
-    background: url(img/backgroundpages.jpg) no-repeat;
+    background: url(img/wave_background.svg) no-repeat;
     color: white;
     height: 100vh;
     background-size: cover;
     background-position: center;
+    font-family: 'Montserrat', sans-serif;
 }
 header {
     display: flex;
@@ -21,6 +22,7 @@ header {
     box-shadow: 0 10px 10px
     #000;
     height: 45px;
+    font-family: 'Montserrat', sans-serif;
 }
 .logo, .top_menu {
     display: inline-block;
